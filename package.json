@@ -1,0 +1,21 @@
+{
+  "name": "react-ui-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/react": "^7.6.17",
+    "babel-loader": "^9.1.3"
+  }
+}
