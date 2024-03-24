@@ -1,10 +1,10 @@
 export interface IButtonProps {
   label: string;
-  type: "primary" | "secondary" | "outlined";
-  action?: () => void;
-  disabled: boolean;
-  width?: number;
-  height?: number;
+  type: "primary" | "outlined";
+  action: () => void;
+  disabled?: boolean;
+  width?: string;
+  height?: string;
   fontColor?: string;
   backgroundColor?: string;
   borderColor?: string;
