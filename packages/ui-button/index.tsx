@@ -8,7 +8,7 @@ export const UiButton = ({
   type = "primary",
   action = () => {},
   disabled = false,
-  size = "medium"
+  size = "medium",
   fontColor,
   backgroundColor,
   borderColor,
@@ -23,7 +23,7 @@ export const UiButton = ({
 
   return (
     <button
-      className={`button button--${size} ${className}`}
+      className={`button button--${type} button--${size} ${className}`}
       onClick={action}
       disabled={disabled}
       {...accessibilityLabels}

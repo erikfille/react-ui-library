@@ -3,6 +3,7 @@ export interface IButtonProps {
   type: "primary" | "outlined";
   action: () => void;
   disabled?: boolean;
+  size?: string;
   width?: string;
   height?: string;
   fontColor?: string;
