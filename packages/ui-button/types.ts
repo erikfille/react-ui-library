@@ -9,6 +9,7 @@ export interface IButtonProps {
   fontColor?: string;
   backgroundColor?: string;
   borderColor?: string;
+  borderWidth?: string;
   icon?: string;
   className?: string;
 }
