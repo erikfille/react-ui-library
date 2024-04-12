@@ -1,20 +1,19 @@
+// DEPENDENCIES
 import React from "react";
-import { IAccessibilityLabels } from "../../../types/generalTypes";
+
+// TYPES
 import { ILoaderComponentProps } from "../types";
+
+// STYLES
 import "../styles.css";
 
 export const LinesLoader = ({ color }: ILoaderComponentProps) => {
-  const accessibilityLabels: IAccessibilityLabels = {
-    "aria-label": `loader`,
-    "data-test": `loader`,
-  };
-
   const style = {
     backgroundColor: `${color}`,
   };
 
   return (
-    <div className="loader-lines" {...accessibilityLabels}>
+    <div className="loader-lines">
       <div className="bar1" style={style}></div>
       <div className="bar2" style={style}></div>
       <div className="bar3" style={style}></div>

@@ -1,14 +1,13 @@
+// DEPENDENCIES
 import React from "react";
-import { IAccessibilityLabels } from "../../../types/generalTypes";
+
+// TYPES
 import { ILoaderComponentProps } from "../types";
+
+// STYLES
 import "../styles.css";
 
 export const CircleLoader = ({ color }: ILoaderComponentProps) => {
-  const accessibilityLabels: IAccessibilityLabels = {
-    "aria-label": `loader`,
-    "data-test": `loader`,
-  };
-
   const style = {
     stroke: `${color}`,
   };

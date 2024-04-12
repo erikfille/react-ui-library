@@ -1,5 +1,7 @@
+// DEPENDENCIES
 import type { Meta, StoryObj } from "@storybook/react";
 
+// COMPONENTS
 import { UiLoader } from "..";
 
 const meta = {
