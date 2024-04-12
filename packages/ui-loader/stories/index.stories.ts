@@ -7,10 +7,10 @@ const meta = {
   component: UiLoader,
   tags: ["autodocs"],
   argTypes: {
-    // type: {
-    //   control: "select",
-    //   options: ["lines", "circle"],
-    // },
+    type: {
+      control: "select",
+      options: ["lines", "circle"],
+    },
   },
 } satisfies Meta<typeof UiLoader>;
 
@@ -20,13 +20,13 @@ type Story = StoryObj<typeof meta>;
 export const Lines: Story = {
   args: {
     type: 'lines',
-    color: "808080"
+    color: "#808080"
   },
 };
 
 export const Circle: Story = {
   args: {
     type: 'circle',
-    color: "45a7e3"
+    color: "#3189fc"
   },
 };

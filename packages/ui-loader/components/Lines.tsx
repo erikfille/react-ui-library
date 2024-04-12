@@ -3,14 +3,14 @@ import { IAccessibilityLabels } from "../../../types/generalTypes";
 import { ILoaderComponentProps } from "../types";
 import "../styles.css";
 
-export const LinesLoader = ({ color = "808080" }: ILoaderComponentProps) => {
+export const LinesLoader = ({ color }: ILoaderComponentProps) => {
   const accessibilityLabels: IAccessibilityLabels = {
     "aria-label": `loader`,
     "data-test": `loader`,
   };
 
   const style = {
-    backgroundColor: `#${color}`,
+    backgroundColor: `${color}`,
   };
 
   return (
