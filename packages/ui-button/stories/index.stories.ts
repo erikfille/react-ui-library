@@ -1,6 +1,7 @@
-import React from "react";
+// DEPENDENCIES
 import type { Meta, StoryObj } from "@storybook/react";
 
+// COMPONENTS
 import { UiButton } from "..";
 
 const meta = {
@@ -37,7 +38,7 @@ export const Outlined: Story = {
     action: () => {
       console.log("Button action triggered");
     },
-    borderColor: "#1ea7fd",
+    borderColor: "grey",
     fontColor: "grey"
   },
 };
