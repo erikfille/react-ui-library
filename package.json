@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages --out=storybook-static"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "@storybook/blocks": "^8.0.4",
     "@storybook/react": "^7.6.17",
     "@storybook/react-vite": "^8.0.4",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.0.4",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
