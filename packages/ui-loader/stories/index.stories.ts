@@ -12,6 +12,10 @@ const meta = {
     type: {
       control: "select",
       options: ["lines", "circle"],
+      description: 'Select the type of loader that you want'
+    },
+    color: {
+      description: 'Select the color for the loader'
     },
   },
 } satisfies Meta<typeof UiLoader>;
